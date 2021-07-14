@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'vazir';
+    src:url('../fonts/Vazir.woff') format('woff');
+}
+body{
+    font-family:"vazir";
+    background-repeat: no-repeat;
+    direction:rtl;
+
+  }
+
+*{
+   transition: ease-in;
+}
+
+legend{
+    width:auto;!important;
+    margin-right: 20px;!important;
+    margin-bottom: 1px;
+    border-bottom:none;!important;
+}
+
+.flex-50 {
+    flex:1 0 48%;!important;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.flex-100 {
+    flex:1 0 100%;!important;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.form-fieldset{
+    -webkit-border-radius: 40px;
+    border-radius: 15px;
+    background: #fff;
+    -webkit-box-shadow: 6px 6px 10px #ede7ff,
+    -1px -1px 10px #ede7ff;
+    box-shadow: 6px 6px 10px #ede7ff,
+    -1px -1px 10px #ede7ff;
+}
+
+/*finish general*/
+.custom-header {
+    color: #fff;
+    text-align:center;
+    font-size: 1.3rem;
+}
+.custom-header img{
+    max-height: 7rem;
+}
+#headerdate{
+   font-size: 0.7rem;
+}
+.custom-menu{
+    background-color: #49a89b;
+    border-top-right-radius:  1rem;
+    border-top-left-radius: 1rem;
+}
+@media (max-width: 768px) {
+    .position-static-custom-profile{
+        position: static;!important;
+    }
+}
+.material-icons{
+    vertical-align: -7px;
+}
+.custom-footer{
+    background-color: #49a89b;
+    padding: 1rem;
+    border-bottom-right-radius:  1rem;
+    border-bottom-left-radius: 1rem;
+}
+/*header & menu &... finish*/
+
+
+/*start body.. chap page*/
+textarea{
+    min-height: 3rem;!important;
+}
+
+.input-radius-custom{
+    -webkit-border-radius: 10px;!important;
+    border-radius: 10px;!important;
+}
+/*start body &... login page*/
+.login-page-body{
+
+    background: rgba(50, 178, 155, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 15px;
+    border: 2px solid rgb(0, 22, 114);
+}
+.login-page-body h5{
+    background-color:  rgba(73, 168, 155, 1);
+    border-radius: 15px 15px 0px 0px;
+}
